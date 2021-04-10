@@ -136,18 +136,15 @@ header{
 .blog-container .single-blog {
     width: 47.4%;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 4.8%;
     margin-bottom: 70px;
     cursor: pointer;
 }
 .blog-container .single-blog .blog-content h6{
     margin: 20px 0px;
 }
-.blog-container .single-blog:nth-child(2){
-    margin-right: 0;
-}
-.blog-container .single-blog:nth-child(4){
-    margin-right: 0;
+.blog-container .single-blog:nth-child(even){
+    margin-right: 0%;
 }
 .single-blog .blog-img img{
     width: 100%;
@@ -209,12 +206,12 @@ header{
     padding: 10px 20px;
     border: 1px solid;
     font-size: 20px;
-    color: #000;
+    color: #626262;;
     transition: .5s;
 }
 .blog-container  .load-more a:hover{
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #626262;
+    border: 1px solid #626262;
     color: #fff;
 }
 /**====|| Second Blog CSS End ||====**/
@@ -233,9 +230,18 @@ footer{
 footer .footer-left{
     width: 30%;
 }
-footer .footer-left p{
+footer .footer-left ul li{
     float: left;
+    list-style: none;
     margin-right: 20px;
+}
+footer .footer-left ul li a{
+    text-decoration: none;
+    color: #626262;
+    font-size: 16px;
+}
+footer .footer-left ul li a:hover{
+    color: #000;
 }
 footer .footer-right{
     float: right;
